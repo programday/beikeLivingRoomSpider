@@ -161,6 +161,9 @@ class BeiKeLiveRoom:
         for task in tasks:
             task.result()
 
+        print('全部城市的今日直播预告已全部爬取完毕, 请在文件夹中查看Excel\n')
+        os.system('pause')
+
 
 if __name__ == '__main__':
     BeiKeLiveRoom().run()
