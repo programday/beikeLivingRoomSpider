@@ -33,7 +33,7 @@ class BeiKeLiveRoom:
         page, total_rooms = 1, []
         while 1:
             params = city_params.copy()
-            params.update({'page': page, 'pagesize': 10, 'timeRange': 1})
+            params.update({'page': page, 'pagesize': 10, 'timeRange': 0})
             try:
                 response = requests.get(
                     self.url, params=params, headers=self.headers, verify=False, timeout=10,
