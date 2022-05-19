@@ -8,14 +8,14 @@ disable_warnings()
 
 class BeiKeLiveRoom:
     cityCodes = {
-        # '苏州': {'parentSceneId': 6106123872458991617, 'cityId': 320500},
-        # '杭州': {'parentSceneId': 6106130410369857281, 'cityId': 330100},
-        # '广州': {'parentSceneId': 6106131227888678913, 'cityId': 440100},
+        '苏州': {'parentSceneId': 6106123872458991617, 'cityId': 320500},
+        '杭州': {'parentSceneId': 6106130410369857281, 'cityId': 330100},
+        '广州': {'parentSceneId': 6106131227888678913, 'cityId': 440100},
         '成都': {'parentSceneId': 6106131840864297473, 'cityId': 510100},
-        # '合肥': {'parentSceneId': 6106134081175244545, 'cityId': 340100},
-        # '廊坊': {'parentSceneId': 6106134843280989697, 'cityId': 131000},
-        # '上海': {'parentSceneId': 6106135483146859265, 'cityId': 310000},
-        # '天津': {'parentSceneId': 6106136106639701505, 'cityId': 120000}
+        '合肥': {'parentSceneId': 6106134081175244545, 'cityId': 340100},
+        '廊坊': {'parentSceneId': 6106134843280989697, 'cityId': 131000},
+        '上海': {'parentSceneId': 6106135483146859265, 'cityId': 310000},
+        '天津': {'parentSceneId': 6106136106639701505, 'cityId': 120000}
     }
     headers = {
         'Cookie': 'H5SceneFromNative=%7B%22sceneId%22%3A%226104731953736756993%22%7D; beikeBaseData=%7B%22duid%22%3A%22%22%2C%22fpid%22%3A%220201029Ie5PGjcoD1y9x%2F5oL5Q4Sm%2BkwZzB6zN%2F8xTr%2B7vzWC%2F6w3he1DzTwCrVI0Vkf%2FfxFPQUr%2BcJA9cL81ftKIcXw%5Cu003d%5Cu003d%22%2C%22appVersion%22%3A%222.79.0%22%7D; digData=%7B%22evt%22%3A%2241645%22%2C%22key%22%3A%22zb_pindao%22%2C%22ts%22%3A%221652705378235%22%7D; lianjia_ssid=0e5c59f3-9662-4086-9209-5c1d72213148; algo_session_id=c8dee080-b719-448c-93ac-e6bdd18e90c1; lianjia_token=; lianjia_udid=bd405b519c7eec1a; lianjia_uuid=118a1dc7-9e78-45b1-9f6f-e3e6468f8221; select_city=310000; staticData=%7B%22accessToken%22%3A%22%22%2C%22appName%22%3A%22%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF%22%2C%22appVersion%22%3A%222.79.0%22%2C%22deviceId%22%3A%22bd405b519c7eec1a%22%2C%22deviceInfo%22%3A%7B%22ketoken%22%3A%22Hd1D1tRffaJw4kdYoUPBUibm18bqR6Pf94wnYIrq2HQXhTB08%2FITY094gfJ7EJBTm0vFeqp1hTU9MtW4zTjQi8JQrbDOKLBB%2FnNeE%2B6j79ccEg5Nru802Q%2F7TtBK3Ycz%22%2C%22ssid%22%3A%220e5c59f3-9662-4086-9209-5c1d72213148%22%2C%22udid%22%3A%22bd405b519c7eec1a%22%2C%22uuid%22%3A%22118a1dc7-9e78-45b1-9f6f-e3e6468f8221%22%7D%2C%22extraData%22%3A%7B%22cityId%22%3A%22310000%22%2C%22cityName%22%3A%22%E4%B8%8A%E6%B5%B7%22%2C%22ip%22%3A%22192.168.0.102%22%2C%22latitude%22%3A%224.9E-324%22%2C%22locationCityName%22%3A%22%22%2C%22longitude%22%3A%224.9E-324%22%2C%22wifiName%22%3A%22VMOSWIFI%22%7D%2C%22network%22%3A%22WIFI%22%2C%22packageName%22%3A%22Android_ke_baidupinzhuan_lp%22%2C%22scheme%22%3A%22lianjiabeike%22%2C%22sysModel%22%3A%22android%22%2C%22sysVersion%22%3A%22Android+7.1.2%22%2C%22userInfo%22%3A%7B%22userName%22%3A%22%22%7D%7D; lianjia_ssid=0e5c59f3-9662-4086-9209-5c1d72213148; lianjia_token=; lianjia_uuid=118a1dc7-9e78-45b1-9f6f-e3e6468f8221; lianjia_udid=bd405b519c7eec1a; select_city=310000; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22180cceac2571c-0a0d9d47601d2f-5d113128-285120-180cceac258727%22%2C%22%24device_id%22%3A%22180cceac2571c-0a0d9d47601d2f-5d113128-285120-180cceac258727%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24latest_referrer_host%22%3A%22%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%7D%7D; beikeBaseData=%7B%22parentSceneId%22:%226104731953736756993%22%7D; fangtrade_tob=0',
@@ -55,73 +55,15 @@ class BeiKeLiveRoom:
             for time_rooms in rooms:
                 for room in time_rooms['data']:
                     room_id = str(room['roomId'])           # 直播间ID
-                    live_title = room['subTitle']       # 直播间标题
                     anchor_name = room['anchorName']        # 主播姓名
-                    anchor_position = room['anchorPosition']        # 主播简介
                     anchor_tag = room['hostTagText']    # 主播标签
-                    live_house_type = f"{room['roomNum']} {room['businessName']}"       # 直播房源户型简介
-                    anchor_photo = room['anchorPhoto']      # 主播照片
-                    live_address = room['scheme']           # 直播详情地址
                     live_start_time = datetime.fromtimestamp(room['announceStartTime']).strftime('%Y-%m-%d %H:%M')     # 直播开始时间
-                    live_end_time = datetime.fromtimestamp(room['announceEndTime']).strftime('%Y-%m-%d %H:%M')     # 直播结束时间
-                    live_create_time = datetime.fromtimestamp(room['ctime']).strftime('%Y-%m-%d %H:%M')            # 直播间创建时间
-                    live_background_img = room['backgroundImg']      # 直播间背景图
 
                     room_data = {
-                        'room_id': room_id, 'spider_date': self.day, 'live_title': live_title,
-                        'anchor_name': anchor_name, 'anchor_position': anchor_position, 'anchor_tag': anchor_tag,
-                        'live_house_type': live_house_type, 'anchor_photo': anchor_photo,
-                        'live_address': live_address, 'live_start_time': live_start_time,
-                        'live_end_time': live_end_time, 'live_create_time': live_create_time,
-                        'live_background_img': live_background_img, 'entity_info': []
+                        'room_id': room_id, 'spider_date': self.day,
+                        'anchor_name': anchor_name, 'anchor_tag': anchor_tag,
+                        'live_start_time': live_start_time
                     }
-
-                    for house_source in room['entityInfo']:
-                        house_title = house_source['entityName']        # 直播房源标题
-                        house_source_place = f"{house_source['resblockName']}/{house_source['districtName']}·{house_source['bizcircleName']}"       # 直播房源地点
-                        # 直播房源户型
-                        if house_source['roomNum']:
-                            house_source_type = house_source['frameDesc'] if len(house_source['roomNum']) != 1 else f"{house_source['roomNum'][0]}室{house_source['livingroomNum']}厅 {house_source['frameDesc']}"
-                        else:
-                            house_source_type = ''
-
-                        # 直播房源面积
-                        if not house_source['area']:
-                            house_source_area = ''
-                        elif isinstance(house_source['area'], list):
-                            if len(house_source['area']) > 1:
-                                house_source_area = f"{house_source['area'][-1]}-{house_source['area'][0]}" if float(house_source['area'][0]) > float(house_source['area'][-1]) else f"{house_source['area'][0]}-{house_source['area'][-1]}"
-                            else:
-                                house_source_area = f"{house_source['area'][0]}"
-                        else:
-                            areas = list(house_source['area'].values())
-                            if len(areas) > 1:
-                                house_source_area = f"{areas[-1]}-{areas[0]}" if float(areas[0]) > float(areas[-1]) else f"{areas[0]}-{areas[-1]}"
-                            else:
-                                house_source_area = f"{areas[0]}"
-
-                        # 直播房源总价格
-                        if not house_source['totalPrice']:
-                            house_total_price = ''
-                        elif isinstance(house_source['totalPrice'], list):
-                            if len(house_source['totalPrice']) > 1:
-                                house_total_price = f"{house_source['totalPrice'][-1]}-{house_source['totalPrice'][0]}" if float(house_source['totalPrice'][0]) > float(house_source['totalPrice'][-1]) else f"{house_source['totalPrice'][0]}-{house_source['totalPrice'][-1]}"
-                            elif house_source['totalPrice'][0] == '0':
-                                house_total_price = ''
-                            else:
-                                house_total_price = f"{house_source['totalPrice'][0]}"
-                        else:
-                            prices = list(house_source['totalPrice'].values())
-                            if len(prices) > 1:
-                                house_total_price = f"{prices[-1]}-{prices[0]}" if float(prices[0]) > float(prices[-1]) else f"{prices[0]}-{prices[-1]}"
-                            else:
-                                house_total_price = f"{prices[0]}"
-
-                        room_data['entity_info'].append({
-                            'house_title': house_title, 'house_source_place': house_source_place,
-                            'house_source_type': house_source_type, 'house_source_area': house_source_area,
-                            'house_total_price': house_total_price
-                        })
 
                     total_rooms.append(room_data)
 
@@ -129,24 +71,12 @@ class BeiKeLiveRoom:
             time.sleep(3)
 
     def save_to_excel(self, city, rooms_data):
-        total_data = []
-        for data in rooms_data:
-            entity_info = data.pop('entity_info')
-            if not entity_info:
-                total_data.append(data)
-                continue
-
-            for info in entity_info:
-                new_data = data.copy()
-                new_data.update(info)
-                total_data.append(new_data)
-
         filename = f'./{self.excel_dirname}/{city}.xlsx'
         workbook = openpyxl.load_workbook(filename)
         worksheet = workbook.active
-
+        
         exists_room_ids = [worksheet.cell(row=row, column=1).value for row in range(2, worksheet.max_row+1)]
-        [worksheet.append(tuple(item.values())) for item in total_data if item['room_id'] not in exists_room_ids]
+        [worksheet.append(tuple(data.values())) for data in rooms_data if data['room_id'] not in exists_room_ids]
 
         try:
             workbook.save(filename)
