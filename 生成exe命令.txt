@@ -1,0 +1,7 @@
+# 进入虚拟环境
+cd venv
+cd Scripts
+activate
+# 执行打包
+pyinstaller -D 直播预告爬取器.py -i logo.ico
+# 将数据文件夹放进dist内
